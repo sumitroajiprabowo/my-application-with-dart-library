@@ -172,11 +172,10 @@ packages:
   my_first_packages_library:
     dependency: "direct main"
     description:
-      path: "."
-      ref: "1.2.0"
-      resolved-ref: "2a717fd2329fd44588ce6c7eb38c03a328179771"
-      url: "git@github.com:sumitroajiprabowo/my_first_packages_library.git"
-    source: git
+      name: my_first_packages_library
+      sha256: "6101fd79d233d3c7999cd4fd24484c1b6d5f7960d1613515b93654575dc0aa3b"
+      url: "https://pub.dev"
+    source: hosted
     version: "1.2.0"
   node_preamble:
     dependency: transitive

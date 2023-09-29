@@ -10,10 +10,7 @@ publish_to: none
 
 # Add regular dependencies here.
 dependencies:
-  my_first_packages_library:
-    git:
-      url: git@github.com:sumitroajiprabowo/my_first_packages_library.git
-      ref: 1.2.0
+  my_first_packages_library: ^1.2.0
 
 dev_dependencies:
   lints: ^2.0.0
